@@ -15,7 +15,7 @@ kind: Deployment
 metadata:
   name: k8s-web-to-nginx
 spec:
-  replicas: 3
+  rep licas: 3
   selector:
     matchLabels:
       app: k8s-web-to-nginx
