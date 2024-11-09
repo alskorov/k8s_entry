@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: k8s-web-to-nginx
-        image: alskordocker/k8s-web-to-nginx
+        image: alskordocker/k8s-web-to-nginx:1.1.0
         resources:
           limits:
             memory: "128Mi"
